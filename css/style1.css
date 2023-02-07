@@ -1,4 +1,4 @@
-h1{
+#relpos h1,#abspos h1,#namecard > h1{
     text-align: center ;
     color:aqua;
     background-color: black;
@@ -10,23 +10,52 @@ h1{
     width: 300px;
     height: 200px;
     border: 1px dotted green;
+    /* position: relative; */
 }
 #mainbox1,#mainbox2{
     width: 914px;
     height: 250px;
     border: 1px solid red;
     margin:auto;
+    padding: 20px;
     position: relative;
 }
-
 #box2{
     position: relative;
     top: 20px;
     left: 20px;
 }
-
 #box5{
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 40px;
+    left: 40px;
+}
+
+#main{
+    margin: auto;
+    width: 600px;
+    height: 300px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.info h1{
+    color: black;
+}
+.info p{
+    font-size: medium;
+}
+#main img{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.info{
+    position: absolute;
+    top: 50px;
+    left: 275px;
 }
