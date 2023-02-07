@@ -1,0 +1,27 @@
+h1{
+    text-align: center ;
+    color:aqua;
+    background-color: black;
+}
+
+#mainbox1 .box{
+    display: inline-block;
+    background-color: beige;
+    width: 300px;
+    height: 200px;
+    border: 1px dotted green;
+}
+#mainbox1{
+    width: 914px;
+    height: 250px;
+    border: 1px solid red;
+    margin:auto;
+    position: relative;
+}
+
+#box2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
