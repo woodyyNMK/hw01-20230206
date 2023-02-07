@@ -4,14 +4,14 @@ h1{
     background-color: black;
 }
 
-#mainbox1 .box{
+#mainbox1 .box, #mainbox2 .box{
     display: inline-block;
     background-color: beige;
     width: 300px;
     height: 200px;
     border: 1px dotted green;
 }
-#mainbox1{
+#mainbox1,#mainbox2{
     width: 914px;
     height: 250px;
     border: 1px solid red;
@@ -25,3 +25,8 @@ h1{
     left: 20px;
 }
 
+#box5{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
